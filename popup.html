@@ -9,7 +9,7 @@
 
   <script>
     chrome.tabs.getSelected(null, function(tab) {
-      url = "http://codemarks.com/codemarklet/new?url=" + tab.url;
+      url = "http://codemarks.com/codemarklet/chrome_extension?url=" + tab.url;
       $('#codemarks').attr('src', url);
     });
   </script>
